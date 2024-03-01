@@ -1,0 +1,44 @@
+<linker>
+	<assembly fullname="SpaceShooter" ignoreIfMissing="1">
+		<type fullname="ExitButton">
+			<method name="QuitApplication"/>
+		</type>
+		<type fullname="LevelLoader">
+			<method name="LoadMainScene"/>
+		</type>
+		<type fullname="MenuManager">
+			<method name="BackToMainMenu"/>
+			<method name="LoadLevel"/>
+			<method name="LoadLevel"/>
+			<method name="LoadLevel"/>
+			<method name="LoadLevel"/>
+			<method name="LoadLevel"/>
+			<method name="LoadLevel"/>
+			<method name="LoadLevel"/>
+			<method name="LoadLevel"/>
+			<method name="LoadLevel"/>
+			<method name="LoadLevel"/>
+			<method name="LoadLevel"/>
+			<method name="LoadLevel"/>
+			<method name="LoadLevel"/>
+			<method name="LoadLevel"/>
+			<method name="OnPlayButtonClicked"/>
+		</type>
+		<type fullname="NextLevelButton">
+			<method name="LoadNextLevel"/>
+			<method name="LoadNextLevel"/>
+			<method name="LoadNextLevel"/>
+			<method name="LoadNextLevel"/>
+			<method name="LoadNextLevel"/>
+			<method name="LoadNextLevel"/>
+			<method name="LoadNextLevel"/>
+			<method name="LoadNextLevel"/>
+			<method name="LoadNextLevel"/>
+			<method name="LoadNextLevel"/>
+			<method name="LoadNextLevel"/>
+			<method name="LoadNextLevel"/>
+			<method name="LoadNextLevel"/>
+			<method name="LoadNextLevel"/>
+		</type>
+	</assembly>
+</linker>
